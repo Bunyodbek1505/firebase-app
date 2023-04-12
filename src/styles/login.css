@@ -1,0 +1,27 @@
+
+
+.auth_form{
+  background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.login_btn{
+  background: #ffffff !important;
+  color: var(--primary-color);
+  font-width: 600;
+  margin: 25px;
+}
+.login_btn a{
+  margin-top: 30px !important;
+}
+.login_btn p a{
+  color: rgba(255,255,255,0.735);
+}
+
+/*   Sign  Up   */
+
+.auth_form input[type='file']{
+  color: #ffffff;
+  cursor: pointer;
+}

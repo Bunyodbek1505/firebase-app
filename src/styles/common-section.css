@@ -1,0 +1,26 @@
+
+.common_section {
+    background: linear-gradient(#000, #000000), url("../assets/images/products_background_img.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*padding: 10px 0px;*/
+}
+
+.common_section h1 {
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+@media(max-width: 768px) {
+.common_section{
+    padding: 70px 0px;
+}
+ .common_section h1{
+     font-size: 1.4rem;
+ }
+
+}
