@@ -53,7 +53,7 @@ const AddProducts = () => {
         //     imgUrl: enterProductImg
         // };
 
-        //         //  =======   add product to the firebace database    =========
+        //         //  =======   add product to the firebace database (dd mahsulotini firebace ma'lumotlar bazasiga joylashtiring)   =========
 
         try {
 

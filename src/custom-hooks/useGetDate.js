@@ -12,7 +12,7 @@ const UseGetDate = (collectionName) => {
 
         const getDate = async()=>{
 
-            //   =======  firebase firestore realtime data update  ===========
+            //   =======  firebase firestore realtime data update (firebase firestore real vaqtda ma'lumotlarni yangilash) =====
              await onSnapshot(collectionRef,(snapshot) =>{
                  setData(snapshot.docs.map(doc =>({...doc.data(), id: doc.id})));
                  setLoading(false)

@@ -16,6 +16,7 @@
 .logo img {
   width: 1.5rem;
   height: 1.5rem;
+
 }
 .logo h1 {
   font-size: 1.2rem;
@@ -28,7 +29,7 @@
   column-gap: 2.7rem;
   margin-bottom: 0;
 }
-.mav_item a {
+.nav_item a {
   color: var(--primary-color);
   font-weight: 500;
   cursor: pointer;

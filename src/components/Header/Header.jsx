@@ -25,13 +25,14 @@ const nav_links = [{
 },];
 
 const Header = () => {
-    const headerRef = useRef(null);
+    // const headerRef = useRef(null);
     const navigate = useNavigate();
     const {currentUser} = useAuth()
 
     const profileActionRef = useRef(null)
 
     const totalQuantity = useSelector((state) => state.cart.totalQuantity);
+    console.log(totalQuantity);
 
     const menuRef = useRef(null);
 
